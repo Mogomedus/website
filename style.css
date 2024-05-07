@@ -52,7 +52,7 @@
     padding: 2px;
     margin: 2px;
     position: absolute;
-    left: 35px;
+    left: 275px;
     top:235px;
     text-decoration: none;
     font-family: monospace;
@@ -68,7 +68,7 @@
     padding: 2px;
     margin: 2px;
     position: absolute;
-    left: 180px;
+    left: 420px;
     top:235px;
     text-decoration:none;
     font-family:monospace;
@@ -92,4 +92,11 @@
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border:blue solid
+}
+
+.text{
+    font-family: unset;
+    position: absolute;
+    font-size: 25px;
+    left:15px;
 }
