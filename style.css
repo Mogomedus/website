@@ -1,7 +1,8 @@
 .mainimg{
     width: 100%;
     height: 1000px;
-    display:inline;
+    display:flex;
+    background:linear-gradient(to bottom, green, rgb(56, 218, 56), lightgreen, white);
 }
 
 .headiv1{
@@ -24,7 +25,7 @@
 }
 
 .headiv1:hover{
-    background-color:rgb(0, 7, 150);
+    background:rgb(0, 7, 150);
 }
 
 .web{
@@ -36,7 +37,7 @@
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     border:black solid;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .headiv{
@@ -57,8 +58,9 @@
 }
 
 main a{
-    transition: 0.3s;
-    background: rgb(22, 204, 46);
+    gap: 15px;
+    transition: 0.5s;
+    background: linear-gradient(to left, rgb(22, 204, 46), rgb(132, 207, 142)); 
     border-top-left-radius:20px;
     border-bottom-right-radius: 20px;
     padding: 5px;
@@ -70,6 +72,13 @@ main a{
     font-size: 27px;
     color:black;
     border:rgb(23, 177, 43) 4px solid
+    
+}
+
+header a{
+    position: absolute;
+    left: 0px;
+    font-family: fantasy;
 }
 
 .link1{
@@ -89,9 +98,8 @@ main a{
 }
 
 main a:hover{
-    transition: 0.5s;
-    background-color:rgb(23, 177, 43) ;
-    border:rgb(22, 204, 46) 4px solid
+
+    border:rgb(11, 112, 24) 4px solid
 }
 
 
